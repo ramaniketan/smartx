@@ -1,0 +1,38 @@
+footer {
+  margin-top: 100px;
+  padding: 100px 0;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    padding-top: 20px;
+  }
+
+  h6 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+padding-bottom: 30px;
+  }
+
+  ul {
+    li {
+      margin-bottom: 24px;
+
+      a {
+        text-decoration: none;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        color: #000;
+      }
+    }
+  }
+}

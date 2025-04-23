@@ -1,0 +1,67 @@
+.action-box {
+  background-color: #0D0D0D;
+  padding: 90px 133px;
+  text-align: center;
+  position: relative;
+
+
+
+  h2 {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+    padding-top: 20px;
+  }
+
+  button {
+    background-color: #E7F875;
+    color: #0D0D0D;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border: 0;
+    border-radius: 0;
+    padding: 16px 32px;
+    margin-top: 50px;
+  }
+}
+
+.vector1 {
+  position: absolute;
+  background-image: url(../images/vector1.png);
+  right: 300px;
+  top: -16px;
+  width: 89px;
+  height: 108px;
+  background-position: center;
+  z-index: 999;
+  background-repeat: no-repeat;
+}
+
+.vector2 {
+  position: absolute;
+  background-image: url(../images/vector2.png);
+  left: -25px;
+  bottom: 20px;
+  width: 175px;
+  height: 124px;
+  background-position: center;
+  z-index: 999;
+  background-repeat: no-repeat;
+}
+
+.vector3 {
+  position: absolute;
+  background-image: url(../images/vector3.png);
+  right: 200px;
+  bottom: -62px;
+  width: 191px;
+  height: 151px;
+  background-position: center;
+  z-index: 999;
+  background-repeat: no-repeat;
+}

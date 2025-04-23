@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FEFCF8;
+}
+
+section {
+  padding-top: 100px
+}
+
+h4 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0%;
+
+}
+
+h5 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+
+}
+
+p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+
+}
+
+.primary {
+  background-color: black
+}
+
+@import './header';
+@import './hero';
+@import './companies';
+@import './integration';
+@import './contact';
+@import './explore';
+@import './resources';
+@import './client';
+@import './actionBox';
+@import './footer';
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .header-section {
+    padding: 40px 0 !important;
+  }
+
+  section {
+    padding-top: 100px
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+  }
+
+  h2 {
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 0%;
+
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0px;
+
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+  }
+
+  section {
+    padding-top: 60px !important
+  }
+}

@@ -1,0 +1,130 @@
+.main-section {
+  background-color: #D1EDF5;
+  // height: 812px;
+}
+
+.header-menus {
+  a {
+    text-decoration: none;
+    color: #545454;
+    padding: 14px 24px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+
+  .active {
+    color: #000;
+  }
+}
+
+.header-btn {
+  a {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #545454;
+    text-decoration: none;
+    letter-spacing: 0%;
+    text-align: right;
+  }
+  button {
+    font-family: Inter;
+font-weight: 700;
+padding: 14px 28px;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: right;
+color: #fff;
+  }
+
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0;
+
+
+
+  ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+
+    li {
+      list-style-type: none;
+      padding-left: 10px;
+
+      a {
+        text-decoration: none;
+        color: #545454;
+        padding: 14px 24px;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0%;
+
+      }
+
+      .active {
+        color: #000;
+      }
+    }
+  }
+
+  .header-btn {
+    .sign {
+      padding: 14px 28px;
+      border: none;
+      background: transparent;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: right;
+      color: #545454;
+    }
+
+    .other-btn {
+      padding: 14px 28px;
+      border: none;
+      background-color: #000;
+      color: #fff;
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      text-align: right;
+
+    }
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}
+
+// @media only screen and (max-width: 1024px) {
+//   .menu {
+//     display: none;
+//   }
+//   .header-btn {
+//     display: none;
+//   }
+//   .menu-btn {
+//     display: block !important;
+//   }
+
+//   .hero .hero-last {
+//     bottom: -53px !important
+//   }
+// }
